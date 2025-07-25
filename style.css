@@ -481,3 +481,154 @@ font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/* Mobile responsive for iPhone 14 & 15 Pro */
+@media (max-width: 768px) {
+    
+    body{
+    margin: 0;
+    padding: 0;
+}
+
+  /* Navbar */
+  .nav .other-link, 
+  .nav .home-link { 
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    flex-direction: column;
+    text-align: left;      
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 0;
+  }
+  .hero-image {
+    order: -1; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-text {
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+  .hero-text h1{
+font-size: 2rem;
+
+  }
+  .hero-text p{
+    font-size: 1.2rem;
+   line-height: 1.4;
+   max-width: 95vw;
+   word-break: normal;
+   white-space: normal;
+    
+   
+  } 
+.hero-text p br {
+    display: none;
+}
+  /* Plants Section */
+  .plants{
+    padding-top: 0rem;
+    margin-top: 0;
+  }
+  
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+ 
+  
+  
+  /* Plants Lover Section */
+  .flower-section {
+    flex-direction: column; /* Stack image and content */
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .flower-images {
+    width: 100%;
+  }
+
+  .flower-info h2{
+       font-size: 1.7rem;
+     
+  }
+  .flower-info br{
+    display: none;
+  }
+  .badge-img {
+    display: none; /* Hide trusted badge */
+  }
+
+  /* Deals Section */
+  
+  .deals-grid {
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+    "bloom"
+    "ana"
+    "zabo";
+  }
+  .deals-grid .deal-card{
+    height: 200px;
+  }
+
+  /* Join Section */
+  .join-section h1{
+    font-size: 1.5rem;
+  }
+  
+  
+  .subscribe-form {
+    flex-direction:row;
+    width: 90vw;
+    max-width: none;
+  }
+  
+  
+  .subscribe-form input{
+    min-width: 0;
+    flex: 4;
+  }
+  .subscribe-form button{
+    flex: 1;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap:1rem;
+}
+
+.footer-links{
+    
+   display: flex;
+   flex-direction: column;
+   gap: o.5rem;
+    
+}
+.footer-left{
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+
+.footer-left p br {
+    display: none;
+}
+
+}
