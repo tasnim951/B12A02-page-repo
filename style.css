@@ -297,7 +297,7 @@ line-height: 1.4;
   background-blend-mode: darken;
 }
 
-/* Common styles */
+
 .deal-card {
   background-size: cover;
   background-position: center;
@@ -335,7 +335,7 @@ line-height: 1.4;
 
   
 }
-
+/* join section */
 .join-section{
 
     background-image: url('assets/news-letter-bg.png');
@@ -391,7 +391,7 @@ border: none;
 color: #f5f8ff;
 
 }
-
+/* footer section */
 .footer-container{
 
     margin-top: 4rem;
@@ -551,7 +551,7 @@ font-size: 2rem;
   
   /* Plants Lover Section */
   .flower-section {
-    flex-direction: column; /* Stack image and content */
+    flex-direction: column; 
     align-items: flex-start;
     text-align: left;
     padding-left: 1rem;
@@ -569,7 +569,7 @@ font-size: 2rem;
     display: none;
   }
   .badge-img {
-    display: none; /* Hide trusted badge */
+    display: none; 
   }
 
   /* Deals Section */
